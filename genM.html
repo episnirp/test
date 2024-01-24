@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>General Mathematics</title>
+<link rel="stylesheet" href="genM.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+    <div class="nav-lenks">
+        <ul>
+            <li><a href="Module 1.html">Module 1</a></li>
+            <li><a href="#">Module 2</a></li>
+            <li><a href="#">Module 3</a></li>
+            <li><a href="#">Module 4</a></li> 
+    </div>
+</nav>
+            <aside class="sidebar close">
+                <div class="logo-details">
+                    <a href="index.html"><i class='bx bxs-calculator'></i></a>
+                    <span class="logo_name">Mathalino</span>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-math' ></i>
+                            <span class="link_name">General Mathematics</span>
+                        </a>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">Module 1:</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <i class='bx bx-book'></i>
+                        <span class="link_name">Module 1:</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Module 1:</a></li>
+                        <li><a href="Module 1.html">Logarithmic Concepts</a></li>
+                        <li><a href="Laws.html">Logarithmic Laws & <br>Properties</a></li>
+                        <li><a href="Equal.html">Logarithmic Equalities</a></li>
+                        <li><a href="Rlp.html">Word Problems</a></li>
+                    </ul>
+                </li>   
+                <li>
+                    <div class="iocn-link">
+                        <a href="PE.html">
+                            <i class='bx bx-task' ></i>
+                        <span class="link_name">Practice Exercise</span>
+                        </a>
+                      
+                    </div>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <i class='bx bx-book'></i>
+                        <span class="link_name">Module 2:</span>
+                        </a>
+                        <i class='bx bx-lock' ></i>
+                    </div>
+                </li>
+                <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bx-book'></i>
+                    <span class="link_name">Module 3:</span>
+                    </a>
+                    <i class='bx bx-lock' ></i>
+                </div>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bx-book'></i>
+                    <span class="link_name">Module 4:</span>
+                    </a>
+                    <i class='bx bx-lock' ></i>
+                </div>
+            </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="home-section">
+            <div class="home-content">
+                <i class='bx bx-menu' ></i>
+                <span class="text">Welcome Students!</span>
+            </div>
+        </div>
+            
+        
+
+<script>
+   
+   let arrow = document.querySelectorAll(".arrow");
+    console.log(arrow);
+    for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e)=>{
+            let arrowParent = e.target.parentElement.parentElement;
+       arrowParent.classList.toggle("showMenu"); 
+        });
+    }
+    
+let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".bx-menu");
+console.log(sidebarBtn);
+sidebarBtn.addEventListener("click", ()=>{
+sidebar.classList.toggle("close");
+});
+</script>
+<div class="text-box">
+    <h1> General Mathematics</h1>
+    <p>General Mathematics aims to develop learners' understanding of concepts and techniques drawn from number and algebra, trigonometry and world geometry,<br>
+                sequences, finance, networks and decision mathematics and statistics, in order to solve applied problems.</p>
+                <video controls autoplay muted src="images/Why Learn Math_ Steven Strogatz Takes a Look.mp4"></video>
+</body>
+
+
+
+

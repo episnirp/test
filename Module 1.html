@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>General Mathematics</title>
+<link rel="stylesheet" href="Module 1.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+ 
+            <aside class="sidebar close">
+                <div class="logo-details">
+                    <a href="index.html"><i class='bx bxs-calculator'></i></a>
+                    <span class="logo_name">Mathalino</span>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-math' ></i>
+                            <span class="link_name">General Mathematics</span>
+                        </a>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">Module 1:</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <i class='bx bx-book'></i>
+                        <span class="link_name">Module 1:</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Module 1:</a></li>
+                        <li><a href="Module 1.html">Logarithmic Concepts</a></li>
+                        <li><a href="Laws.html">Logarithmic Laws & <br>Properties</a></li>
+                        <li><a href="Equal.html">Logarithmic Equalities</a></li>
+                        <li><a href="Rlp.html">Word Problems</a></li>
+                    </ul>
+                </li>   
+                <li>
+                    <div class="iocn-link">
+                        <a href="PE.html">
+                            <i class='bx bx-task' ></i>
+                        <span class="link_name">Practice Exercise</span>
+                        </a>
+                      
+                    </div>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <i class='bx bx-book'></i>
+                        <span class="link_name">Module 2:</span>
+                        </a>
+                        <i class='bx bx-lock' ></i>
+                    </div>
+                </li>
+                <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bx-book'></i>
+                    <span class="link_name">Module 3:</span>
+                    </a>
+                    <i class='bx bx-lock' ></i>
+                </div>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bx-book'></i>
+                    <span class="link_name">Module 4:</span>
+                    </a>
+                    <i class='bx bx-lock' ></i>
+                </div>
+            </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="home-section">
+            <div class="home-content">
+                <i class='bx bx-menu' ></i>
+                <span class="text">Module 1:</span>
+            </div>
+        </div>
+            
+        
+
+<script>
+   
+   let arrow = document.querySelectorAll(".arrow");
+    console.log(arrow);
+    for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e)=>{
+            let arrowParent = e.target.parentElement.parentElement;
+       arrowParent.classList.toggle("showMenu"); 
+        });
+    }
+    
+let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".bx-menu");
+console.log(sidebarBtn);
+sidebarBtn.addEventListener("click", ()=>{
+sidebar.classList.toggle("close");
+});
+</script>
+
+<section>    
+<div class="text-box">
+    <h1> Logarithmic Concept </h1>
+    <p>Logarithms are like shortcuts in math that make it easier to deal with big numbers. They help turn
+        complicated exponential stuff into simpler, more understandable math.<br> We use them in different
+        areas like math problems, science, computers, and money calculations. They're basically helpful tools
+        that make math less of a headache!<br>Logarithms are essential mathematical tools used to simplify complex calculations involving
+exponential relationships. They transform exponential growth or decay into more manageable linear
+forms, finding applications in mathematics, physics, computer science, and finance. This introduction
+provides a glimpse into the fundamentals and practical significance of logarithms across various
+domains</p>
+<video controls autoplay muted src="images/Logarithms, Explained - Steve Kelly.mp4" width="600px"></video>
+</div>
+
+
+<div class="LN">
+    <h2>Logarithm of a Number</h2>
+    <p>-Let a, b, and c be positive real numbers similar to that b > 0, and b ≠ 1. The logarithm of a with base b is
+        indicated by logb, a is defined as c= logb and only if a = bc</p> 
+</div>
+
+<div class="Lr">
+    <h2>Logarithmic Form to Exponential Form</h2>
+    <p>-What Is The Formula Of Log to Exponential Form? The formula of log to exponential form is l o g <sub>a</sub> N = x , is written in exponential form as a<sup>x</sup> = N .<br>
+        The logarithm of a number N to the base of a is equal to x, which if written in exponential form is equal to a to the exponent of x is equal to N.</p>
+        <img src="images/lg.jpg">
+</div>
+</section>
+
+<!---expotulog-->
+
+
+    <div class="LR2">
+        <h2>Exponential Form to Logarithmic Form</h2>
+        <p>-The process of converting from exponential to log form is a simple process. The exponential form a<sup>x</sup>  = N is converted to logarithmic form l o g <sub>a</sub> N = x , <br>
+            and this simple formula is helpful to convert exponential to log form. </p>
+            <img src="images/expotolog.jpg" width="520px">
+        </div>
+    
+
+
+
+

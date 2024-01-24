@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>General Mathematics</title>
+<link rel="stylesheet" href="Equal.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+ 
+            <aside class="sidebar close">
+                <div class="logo-details">
+                    <a href="index.html"><i class='bx bxs-calculator'></i></a>
+                    <span class="logo_name">Mathalino</span>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-math' ></i>
+                            <span class="link_name">General Mathematics</span>
+                        </a>
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="#">Module 1:</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <i class='bx bx-book'></i>
+                        <span class="link_name">Module 1:</span>
+                        </a>
+                        <i class='bx bxs-chevron-down arrow'></i>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="#">Module 1:</a></li>
+                        <li><a href="Module 1.html">Logarithmic Concepts</a></li>
+                        <li><a href="Laws.html">Logarithmic Laws & <br>Properties</a></li>
+                        <li><a href="Equal.html">Logarithmic Equalities</a></li>
+                        <li><a href="Rlp.html">Word Problems</a></li>
+                    </ul>
+                </li>   
+                <li>
+                    <div class="iocn-link">
+                        <a href="PE.html">
+                            <i class='bx bx-task' ></i>
+                        <span class="link_name">Practice Exercise</span>
+                        </a>
+                      
+                    </div>
+                <li>
+                    <div class="iocn-link">
+                        <a href="#">
+                            <i class='bx bx-book'></i>
+                        <span class="link_name">Module 2:</span>
+                        </a>
+                        <i class='bx bx-lock' ></i>
+                    </div>
+                </li>
+                <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bx-book'></i>
+                    <span class="link_name">Module 3:</span>
+                    </a>
+                    <i class='bx bx-lock' ></i>
+                </div>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bx-book'></i>
+                    <span class="link_name">Module 4:</span>
+                    </a>
+                    <i class='bx bx-lock' ></i>
+                </div>
+            </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="home-section">
+            <div class="home-content">
+                <i class='bx bx-menu' ></i>
+                <span class="text">Module 1:</span>
+            </div>
+        </div>
+            
+        
+
+<script>
+   
+   let arrow = document.querySelectorAll(".arrow");
+    console.log(arrow);
+    for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e)=>{
+            let arrowParent = e.target.parentElement.parentElement;
+       arrowParent.classList.toggle("showMenu"); 
+        });
+    }
+    
+let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".bx-menu");
+console.log(sidebarBtn);
+sidebarBtn.addEventListener("click", ()=>{
+sidebar.classList.toggle("close");
+});
+</script>
+
+<section>    
+<div class="text-box">
+    <h1>Logarithmic Equalities</h1>
+    <p>•	Is an equation that involves the logarithm of an expression containing a variable. <br>
+        •	Logarithmic Equations are useful when solving equations/problems regarding exponential growth or decay. <br>
+        •	Logarithmic Equations are widely used in many fields involving mathematics such as: Engineering, Physics, and Computer Science. 
+       <video controls autoplay muted src="images/Solving logarithmic equations _ Exponential and logarithmic functions _ Algebra II _ Khan Academy.mp4" width="600px"></video>
+    </p>
+</div>
+<div class="s1">
+<h2> THE STEP-BY-STEP IN SOLVING LOGARITHMIC EQUATIONS:</h2>
+<p><b>Step 1: Isolate the Logarithmic Expression.</b><br>
+    If there are additional terms in the equation, isolate the logarithmic expression on one side.</p> </div>
+    
+    <div class="s2">
+        <p><b>Step 2: Apply the One-to-One property.</b><br>
+Use the fact that if log base b of x equals log base b of y, then x equals y. This property allows you to set the arguments of the logarithms equal to each other.</p></div>
+
+<div class="s3">
+    <p><b>Step 3: Solve for the variable.</b><br>
+        To solve for the variable, set the arguments equal and then solve the resulting equation.</p></div>
+       
+        <div class="s4">
+            <p><b>Step 4: for Extraneous solutions.</b><br>
+                It's possible for logarithmic equations to have extraneous solutions, so it's important to check the solutions in the original equation to ensure they are valid.
+                </p></div>
+                <div class="s5">
+                    <p><b>Step 5: State the Final Solution.</b><br>
+                        Present the solution or solutions to the logarithmic equation.                        
+                        </p></div>
+</section>
+<section>
+<div class="Wrapper">
+            <img src="images/Q.jpg">
+            <div class="text-bax">
+            <h2>Example #1</h2>
+            <p>Step 1: Use the one-to-one property of the logarithm.<br>
+            Step 2: Get zero on one side before factoring.<br>
+        Step 3: Factor the quadratic.<br>
+    Step 4: If a product is zero, one of the factors must be zero.<br>
+    Step 5: Solve for x.<br>
+    <b>In conclusion both x = 3 and x = -1 are TRUE.</b> </p>
+                </div>
+            </div>
+            
+            <div class="Wapper">
+                <img src="images/Q2.jpg">
+                <div class="text-bex">
+                <h2>Example #2</h2>
+                <p>Step 1: Apply the quotient rule of logarithms. <br>
+                Step 2: Apply the one-to-one property of logarithms. <br>
+            Step 3: Multiply both sides with the equation of 2.<br>
+        Step 4: Subtract 2x and add 2.<br>
+        <b>The solution checks. </b> </p>
+                    </div>
+                </div>
+            </section>   
+   
+    
+
+
+
+
